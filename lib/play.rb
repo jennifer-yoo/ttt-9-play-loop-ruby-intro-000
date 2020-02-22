@@ -37,8 +37,9 @@ end
 
 # Define your play method below
 def play(board)
-  loop do
   index = 1
+  loop do
+    index += 1
     if index < 10
     break
   end
