@@ -38,7 +38,7 @@ end
 # Define your play method below
 def play(board)
   turn.each
-  if turn > 10
+  if turn > 10 then
     break
   end
 end
