@@ -37,10 +37,10 @@ end
 
 # Define your play method below
 def play(board)
-  turn = 1
+  turn[board] = 1
   loop do
-    turn += 1
-    if turn < 10
+    turn[board] += 1
+    if turn[board] < 10
     break
   end
     end
