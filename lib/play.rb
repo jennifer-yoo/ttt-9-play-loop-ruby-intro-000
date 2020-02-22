@@ -37,12 +37,6 @@ end
 
 # Define your play method below
 def play(board)
-move = 1
-  loop do
-    move += 1
-    turn(board)
-    if move > 10
-      break
-    end
-  end
-  end
+9.times do
+  turn(board)
+end
