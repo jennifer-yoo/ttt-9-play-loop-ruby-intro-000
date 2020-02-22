@@ -37,7 +37,11 @@ end
 
 # Define your play method below
 def play(board)
-  play = turn.each
-  while turn < 10 
+  turn(board) == move
+  loop do
+    move += 1
+    turn(board)
+    if move > 10
+      break
+    end
   end
-end
