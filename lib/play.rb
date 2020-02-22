@@ -38,9 +38,9 @@ end
 # Define your play method below
 def play(board)
   loop do
-  board = 1
+  index = 1
   turn(board)
-  if board < 10
+  if index < 10
     break
   end
     end
