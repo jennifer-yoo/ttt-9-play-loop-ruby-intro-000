@@ -38,6 +38,6 @@ end
 # Define your play method below
 def play(board)
   turn.each
-  while turn < 10 
+  while board < 10 
   end
 end
