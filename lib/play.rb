@@ -39,6 +39,6 @@ end
 def play(board)
   turn(board) = 0
   turn(board) < 9
-  turb(board) =+ 1
+  turn(board) += 1
     end
   end
