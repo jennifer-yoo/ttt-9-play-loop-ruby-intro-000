@@ -36,3 +36,9 @@ def turn(board)
 end
 
 # Define your play method below
+def play(board)
+  turn(board) = 0
+  turn(board) < 9
+  turb(board) =+ 1
+    end
+  end
